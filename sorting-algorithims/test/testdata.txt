@@ -1,0 +1,125 @@
+First output is Selection Sort
+Second is Quick Sort
+Third is Bubble Sort
+Fourth is Heap sort
+
+simmsb3@razor1:~/2021-ca284-sorting/src $ ./Test 10
+Took 0.000055 seconds to run sort successfully
+Took 0.000111 seconds to run sort successfully
+Took 0.000166 seconds to run sort successfully
+Took 0.000224 seconds to run sort successfully
+Reversed Array sort
+Took 0.000063 seconds to run sort successfully
+Took 0.000120 seconds to run sort successfully
+Took 0.000171 seconds to run sort successfully
+Took 0.000229 seconds to run sort successfully
+
+simmsb3@razor1:~/2021-ca284-sorting/src $ ./Test 100
+Took 0.002833 seconds to run sort successfully
+Took 0.004720 seconds to run sort successfully
+Took 0.012465 seconds to run sort successfully
+Took 0.015198 seconds to run sort successfully
+Reversed Array sort
+Took 0.002785 seconds to run sort successfully
+Took 0.004660 seconds to run sort successfully
+Took 0.011742 seconds to run sort successfully
+Took 0.014457 seconds to run sort successfully
+
+simmsb3@razor1:~/2021-ca284-sorting/src $ ./Test 1000
+Took 2.184573 seconds to run sort successfully
+Took 2.476472 seconds to run sort successfully
+Took 9.184153 seconds to run sort successfully
+Took 9.676144 seconds to run sort successfully
+Reversed Array sort
+Took 2.147036 seconds to run sort successfully
+Took 2.450359 seconds to run sort successfully
+Took 9.035051 seconds to run sort successfully
+Took 9.414630 seconds to run sort successfully
+
+simmsb3@razor1:~/2021-ca284-sorting/src $ ./Test 2500
+Took 32.645725 seconds to run sort successfully
+Took 34.767212 seconds to run sort successfully
+Took 136.136682 seconds to run sort successfully
+Took 139.689735 seconds to run sort successfully
+Reversed Array sort
+Took 32.910578 seconds to run sort successfully
+Took 35.125660 seconds to run sort successfully
+Took 138.523799 seconds to run sort successfully
+Took 142.180307 seconds to run sort successfully
+
+I figured out that my Timer was not reseting between sorts so I edited out code to individually test each program
+
+Selection Sort:
+simmsb3@razor1:~/2021-ca284-sorting/src $ ./Test 10
+Took -nan seconds to run sort successfully
+Reversed Array sort
+Took 0.000049 seconds to run sort successfully
+simmsb3@razor1:~/2021-ca284-sorting/src $ ./Test 100
+Took 0.002680 seconds to run sort successfully
+Reversed Array sort
+Took 0.002696 seconds to run sort successfully
+simmsb3@razor1:~/2021-ca284-sorting/src $ ./Test 1000
+Took 1.858773 seconds to run sort successfully
+Reversed Array sort
+Took 1.792695 seconds to run sort successfully
+simmsb3@razor1:~/2021-ca284-sorting/src $ ./Test 2500
+Took 31.439352 seconds to run sort successfully
+Reversed Array sort
+Took 33.453838 seconds to run sort successfully
+
+Quick Sort:
+simmsb3@razor1:~/2021-ca284-sorting/src $ ./Test 10
+Took -nan seconds to run sort successfully
+Reversed Array sort
+Took 0.000054 seconds to run sort successfully
+simmsb3@razor1:~/2021-ca284-sorting/src $ ./Test 100
+Took 0.001942 seconds to run sort successfully
+Reversed Array sort
+Took 0.001997 seconds to run sort successfully
+simmsb3@razor1:~/2021-ca284-sorting/src $ ./Test 1000
+Took 0.303771 seconds to run sort successfully
+Reversed Array sort
+Took 0.302488 seconds to run sort successfully
+simmsb3@razor1:~/2021-ca284-sorting/src $ ./Test 2500
+Took 1.493586 seconds to run sort successfully
+Reversed Array sort
+Took 1.801957 seconds to run sort successfully
+
+Bubble Sort:
+simmsb3@razor1:~/2021-ca284-sorting/src $ ./Test 10
+Took -nan seconds to run sort successfully
+Reversed Array sort
+Took 0.000050 seconds to run sort successfully
+simmsb3@razor1:~/2021-ca284-sorting/src $ ./Test 100
+Took 0.007425 seconds to run sort successfully
+Reversed Array sort
+Took 0.007110 seconds to run sort successfully
+simmsb3@razor1:~/2021-ca284-sorting/src $ ./Test 1000
+Took 5.850533 seconds to run sort successfully
+Reversed Array sort
+Took 5.472074 seconds to run sort successfully
+simmsb3@razor1:~/2021-ca284-sorting/src $ ./Test 2500
+Took 101.853583 seconds to run sort successfully
+Reversed Array sort
+Took 99.843023 seconds to run sort successfully
+
+Heap Sort:
+simmsb3@razor1:~/2021-ca284-sorting/src $ ./Test 10
+Took -nan seconds to run sort successfully
+Reversed Array sort
+Took 0.000088 seconds to run sort successfully
+simmsb3@razor1:~/2021-ca284-sorting/src $ ./Test 100
+Took 0.002722 seconds to run sort successfully
+Reversed Array sort
+Took 0.002672 seconds to run sort successfully
+simmsb3@razor1:~/2021-ca284-sorting/src $ ./Test 1000
+Took 0.486689 seconds to run sort successfully
+Reversed Array sort
+Took 0.495231 seconds to run sort successfully
+simmsb3@razor1:~/2021-ca284-sorting/src $ ./Test 2500
+Took 3.615677 seconds to run sort successfully
+Reversed Array sort
+Took 3.632426 seconds to run sort successfully
+
+
+
